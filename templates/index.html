@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AMAZON SALES PREDICTION</title>
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body background="/static/image/amazon2.jpg"></body>
+        <style>
+            #link { color: red; }
+        </style>
+        <a id="link"
+        href= "/categories"> Product Categories </a>
+        
+        <div class = "input form">
+        <form action="{{url_for('predict')}}", method="post">
+            <h1 id ="heading"><b> AMAZON SALES PREDICTION </b></h1> <br><br>
+            <label for="amt"> month </label> 
+            <select name="amt" id="amt">
+                <option value="select"> select </option>
+                <option value="0"> March </option>
+                <option value="1"> April </option>
+                <option value="2"> May </option>
+                <option value="3"> June</option>
+
+            </select>
+            <br>
+            <br>
+           
+            
+            <label for="cat"> category </label>
+            <select name="cat" id="cat">
+                <option value="select"> select </option>
+                <option value="0"> Blouse </option>
+                <option value="1"> Bottom </option>
+                <option value="2"> Dupatta </option>
+                <option value="3"> Ethnic Dress </option>
+                <option value="4"> Saree </option>
+                <option value="5"> Set </option>
+                <option value="6"> Top </option>
+                <option value="7"> Western Dress </option>
+                <option value="8"> Kurta </option>
+
+            </select>
+            <br>
+            <br>
+        
+            <button id="submit" type="submit">Submit</button>
+        </form>
+        </div>
+
+
+</body>
+</html>

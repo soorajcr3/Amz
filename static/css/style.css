@@ -1,0 +1,121 @@
+html{width: 100%;height: 100%;overflow: hidden;}
+.input form{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 400px;
+    height: 400px;
+    margin: -150px 0 0 -150px;
+}
+.Category{
+    top: 40%;
+    left: 30%;
+    width: 300px;
+    height: 300px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heading{
+    color: rgb(204, 155, 20);
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+#cat0{
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+#cat1{
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+#cat2{
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+#cat3{
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+#cat4{
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+#cat5{
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+#cat6{
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+#cat7{
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+#cat8{
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+#submit{
+    border:2px;
+    background-color: rgb(204, 155, 20);
+    color: white ;
+    font-size: 20px;
+    border-radius:4px;
+    width:100px;
+    height:25px;
+}
+#submit:hover{
+    background-color:rgb(82, 72, 18);
+    transition: .5s ease-in-out;
+    color:black;
+}
+input[type=text] {
+    width: 50%;
+    left: 40%;
+    margin: 8px 0;
+    font-size: 15px;
+    color: rgb(7, 7, 7) ;
+    text-align: center;
+    border-radius: 4px;
+    height:25px
+  }
+
+#cat{
+    width: 50%;
+    left: 40%;
+    margin: 8px 0;
+    font-size: 15px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+    height:25px
+}
+img{
+    width: 100%;
+    height:100%
+}
+#href:link{
+    color:red;
+}
